@@ -1,0 +1,34 @@
+# =============================================================================
+#  Backend — Node.js / Express
+# =============================================================================
+
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads / temp
+uploads/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+.nyc_output/
